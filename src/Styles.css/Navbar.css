@@ -1,0 +1,48 @@
+
+.navigationbar{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: sticky;
+    border-bottom: 1px solid black;
+    
+}
+
+
+
+.navigationbar ul {
+    display: flex;
+    margin-right: 40px;
+    list-style-type: none;
+    background: transparent;
+   
+  }
+  
+
+h2{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    background: transparent;
+}
+
+Link{
+    text-decoration: none;
+}
+
+button{
+    background: none;
+    border: none;  
+    margin: 5px 10px;
+    padding: 10px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+button:hover{
+    background: white;
+  
+}
+
