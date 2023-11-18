@@ -337,16 +337,16 @@ const Plants = () => {
     <div>
     <center>
       <div style={{ display: 'flex', justifyContent: 'space-around', margin: '20px' }}>
-        <div onClick={() => handleCategoryClick('flowering_plants')} style={{ cursor: 'pointer', border: selectedCategory === 'flowering_plants' ? '2px solid black' : '2px solid white', padding: '10px' }}>
+        <div className='btn' onClick={() => handleCategoryClick('flowering_plants')} style={{ cursor: 'pointer', border: selectedCategory === 'flowering_plants' ? '1px solid white' : '1px solid black', textDecoration: selectedCategory === 'flowering_plants' ? 'none' : 'underline', padding: '10px' }}>
           Flowering Plants
         </div>
-        <div onClick={() => handleCategoryClick('vegetables')} style={{ cursor: 'pointer', border: selectedCategory === 'vegetables' ? '2px solid black' : '2px solid white', padding: '10px' }}>
+        <div className='btn' onClick={() => handleCategoryClick('vegetables')} style={{ border: selectedCategory === 'vegetables' ? '1px solid white' : '1px solid black',  textDecoration: selectedCategory === 'vegetables' ? 'none' : 'underline', padding: '10px' }}>
           Vegetables
         </div>
-        <div onClick={() => handleCategoryClick('herbs')} style={{ cursor: 'pointer', border: selectedCategory === 'herbs' ? '2px solid black' : '2px solid white', padding: '10px' }}>
+        <div className='btn' onClick={() => handleCategoryClick('herbs')} style={{ cursor: 'pointer', border: selectedCategory === 'herbs' ? '1px solid white' : '1px solid black', textDecoration: selectedCategory === 'herbs' ? 'none' : 'underline', padding: '10px'  }}>
           Herbs
         </div>
-        <div onClick={() => handleCategoryClick('trees')} style={{ cursor: 'pointer', border: selectedCategory === 'trees' ? '2px solid black' : '2px solid white', padding: '10px' }}>
+        <div className='btn' onClick={() => handleCategoryClick('trees')} style={{ cursor: 'pointer', border: selectedCategory === 'trees' ? '1px solid white' : '1px solid black', textDecoration: selectedCategory === 'trees' ? 'none' : 'underline',  padding: '10px'}}>
           Trees
         </div>
       </div>

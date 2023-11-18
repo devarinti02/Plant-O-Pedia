@@ -1,22 +1,23 @@
 const Vegetables = ({ details }) => {
   if (!details || !details.vegetables) {
-    return <p>No Vegetables data available.</p>;
+    return <p>No vegetables data available.</p>;
   }
 
   return (
-    <div>
-      <h2>Vegetables</h2>
-     <center>
-        <div>
-          {details.vegetables.map((plant, index) => (
+    <div className="container">
+      <div>
+      <h1 className="heading">vegetables</h1>
+
+        <div className="displaybody">
+          {details.vegetables.map((vegetables, index) => (
             <div key={index}>
-              <div>
-                <h3>{plant.name}</h3>
-                <p>Season: {plant.season}</p>
-                <p>Soil Type: {plant.soil_type}</p>
-                <h4>Growth Methods:</h4>
+              <div className="contentbody">
+                <h2 className="title">{vegetables.name}</h2>
+                <h3 className="para"> Season: {vegetables.season}</h3>
+                <h3 className="para">Soil Type: {vegetables.soil_type}</h3>
+                <h3 className="methods">Growth Methods:</h3>
                 <ul>
-                  {plant.methods.map((method, methodIndex) => (
+                  {vegetables.methods.map((method, methodIndex) => (
                     <li key={methodIndex}>
                       <strong>{method.method_name}</strong>
                       <ul>
@@ -31,8 +32,9 @@ const Vegetables = ({ details }) => {
             </div>
           ))}
         </div>
-      </center>
+     
     </div>
+</div>   
   );
 };
 

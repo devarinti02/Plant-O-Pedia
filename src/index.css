@@ -1,6 +1,7 @@
 @import'./Styles.css/Navbar.css';
 @import './Styles.css/Home.css';
-@import './Styles.css/FloweringPlants.css';
+@import './Styles.css/PlantsComponent.css';
+@import './Styles.css/Plants.css';
 
 *{
   margin: 0;padding: 0;

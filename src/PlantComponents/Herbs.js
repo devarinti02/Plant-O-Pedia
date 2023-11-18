@@ -4,19 +4,20 @@ const Herbs = ({ details }) => {
   }
 
   return (
-    <div>
-      <h2>Herbs</h2>
-     <center>
-        <div>
-          {details.herbs.map((herb, index) => (
+    <div className="container">
+      <div>
+      <h1 className="heading">Herbs</h1>
+
+        <div className="displaybody">
+          {details.herbs.map((herbs, index) => (
             <div key={index}>
-              <div>
-                <h3>{herb.name}</h3>
-                <p>Season: {herb.season}</p>
-                <p>Soil Type: {herb.soil_type}</p>
-                <h4>Growth Methods:</h4>
+              <div className="contentbody">
+                <h2 className="title">{herbs.name}</h2>
+                <h3 className="para"> Season: {herbs.season}</h3>
+                <h3 className="para">Soil Type: {herbs.soil_type}</h3>
+                <h3 className="methods">Growth Methods:</h3>
                 <ul>
-                  {herb.methods.map((method, methodIndex) => (
+                  {herbs.methods.map((method, methodIndex) => (
                     <li key={methodIndex}>
                       <strong>{method.method_name}</strong>
                       <ul>
@@ -31,8 +32,9 @@ const Herbs = ({ details }) => {
             </div>
           ))}
         </div>
-      </center>
+     
     </div>
+</div>   
   );
 };
 
