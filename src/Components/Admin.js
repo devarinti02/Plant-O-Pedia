@@ -21,7 +21,7 @@ const Admin = () => {
 
     return (
         <div className='login-form'>
-            <center>
+            <center className='admin-centerbody'>
                 <input type='text' placeholder='username' value={username}
                     onChange={(e) => setUsername(e.target.value)}
                 />

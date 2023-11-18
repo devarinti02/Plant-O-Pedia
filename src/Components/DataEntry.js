@@ -42,15 +42,15 @@ const DataEntry = () => {
     <div className='dataEntry'>
         <center className='dataposition'>
             <form className='dataform' onSubmit={handleSubmit}>
-                <input type='text' placeholder='enter the plant name' name='title' value={title} onChange={eventHandler}/>
+                <input className='plant-name' type='text' placeholder='enter the plant name' name='title' value={title} onChange={eventHandler}/>
                 <br></br>
-                <input type='text' placeholder='enter the description' name='description' value={description} onChange={eventHandler}/>
+                <input className='descriptiondata' type='text' placeholder='enter the description' name='description' value={description} onChange={eventHandler}/>
                 <br></br>
-                <input type='text' placeholder='enter the soil' name='soil' value={soil} onChange={eventHandler}/>
+                <input className='soildata' type='text' placeholder='enter the soil' name='soil' value={soil} onChange={eventHandler}/>
                 <br></br>
-                <input type='text' placeholder='enter the methods' name='methods' value={methods} onChange={eventHandler}/>
+                <input  className='methodsdata'type='text' placeholder='enter the methods' name='methods' value={methods} onChange={eventHandler}/>
                 <br></br>
-                <input type='submit' name='submit'/>
+                <input className='submit' type='submit' name='submit'/>
             </form>
         </center>
     </div>

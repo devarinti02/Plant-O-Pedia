@@ -1,0 +1,61 @@
+
+.dataEntry {
+    max-width: 40%;
+    margin: 80px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: none;
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dataposition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: none;
+  }
+  
+  .dataform {
+    display: flex;
+    flex-direction: column;
+    background: none;
+  }
+  
+  .descriptiondata{
+    height: 100px;
+    background: none;
+    
+  }
+
+  .plant-name, .soildata, .methodsdata, .descriptiondata{
+    background: none;
+    font-size: medium;
+  }
+
+ ::placeholder{
+    color: black;
+    font-style: italic;
+ }
+  
+
+  .dataform input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 400px;
+    box-sizing: border-box;
+    background-color: none;
+    
+  }
+  
+  .submit {
+    background: rgb(95, 153, 7);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

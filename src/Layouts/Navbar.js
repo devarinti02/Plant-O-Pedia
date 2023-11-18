@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
     <nav className='navigationbar'>
-       <h2>  Welcome to Plant-O-Pedia </h2>
+       <h2 className='nav-heading'>  Welcome to Plant-O-Pedia </h2>
         <ul className='nav-btns'>
          <button onClick={()=> navigate('/')}>Home</button> 
          <button onClick={()=> navigate('/Plants')}>Plants</button> 

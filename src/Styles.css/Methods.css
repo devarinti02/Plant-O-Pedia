@@ -1,0 +1,51 @@
+.mainbody{
+    margin: 10px;
+    padding: 40px;
+    background: none;
+    backdrop-filter: blur(150px);
+}
+
+.mainbody:hover{
+    background-color: rgb(163, 110, 29);
+  backdrop-filter: blur(1000px);
+}
+
+.main-heading{
+    margin: 30px;
+    text-decoration: underline;
+    
+    
+}
+
+.methods-container {
+    border: 2px solid #ccc;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 15px;
+    
+  }
+
+h2{
+    font-size: xx-large;
+    text-decoration: underline;
+    background: none;
+   
+
+}
+h3{
+    margin: 20px;
+    background: none;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+p{
+    background: transparent;
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    
+}

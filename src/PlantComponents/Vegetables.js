@@ -6,7 +6,7 @@ const Vegetables = ({ details }) => {
   return (
     <div className="container">
       <div>
-      <h1 className="heading">vegetables</h1>
+      <h1 className="heading">Vegetables</h1>
 
         <div className="displaybody">
           {details.vegetables.map((vegetables, index) => (

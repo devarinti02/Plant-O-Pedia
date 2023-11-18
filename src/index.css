@@ -2,7 +2,9 @@
 @import './Styles.css/Home.css';
 @import './Styles.css/PlantsComponent.css';
 @import './Styles.css/Plants.css';
-
+@import './Styles.css/Methods.css';
+@import './Styles.css/Admin.css';
+@import './Styles.css/Dataentry.css';
 *{
   margin: 0;padding: 0;
   min-height: 100%;

@@ -5,7 +5,7 @@ const FloweringPlants = ({ details }) => {
 
   return (
     <div className="container">
-      <div>
+      <div className="body">
       <h1 className="heading">Flowering Plants</h1>
 
         <div className="displaybody">

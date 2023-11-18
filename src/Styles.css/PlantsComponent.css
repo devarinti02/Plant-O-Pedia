@@ -1,31 +1,40 @@
 .container {
   border: 1px solid #ccc;
-  max-width: 70%;
+  max-width: 80%;
   margin: 50px auto;
+
 }
+
 
 .displaybody {
   margin-top: 20px;
+  
 }
 
 h1 {
   margin: 20px 0;
+
 }
 
 .contentbody {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   border-top: 1px solid #ccc;
   padding: 20px;
   padding-bottom: 40px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
+  width: 90%;
   background: none;
-  backdrop-filter: blur(500px);
+  backdrop-filter: blur(150px);
 }
+/* un comment the below code if u want to use the background effect to change on hovering */ 
+/* .contentbody:hover{
+  background-color: rgb(163, 110, 29);
+  backdrop-filter: blur(1000px);
+} */
 
 .title {
   color: #060606;
+  margin: 10px 0;
+  padding: 10px 20px;
   font-size: xx-large;
   background: none;
   text-decoration: underline;
@@ -33,33 +42,36 @@ h1 {
 
 .para {
   margin: 10px 0;
-  font-size: larger;
+  padding: 10px 20px;
+  font-size: 20px;
   font-weight: bold;
   background: none;
+  color: rgb(241, 241, 30);
 }
 
 .methods {
   margin: 15px 0px;
-  font-size: larger;
+  padding: 10px 20px;
+  font-size: 20px;
   font-weight: bold;
   background: none;
+  text-decoration: underline;
 }
 
 /* Remove bullet styles for ul and li */
 ul, li {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   background: none;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-align: left;
 }
 
 ul strong {
-  display: flex;
   background: none;
   color: rgb(132, 232, 9);
   font-size: large;
+  text-decoration: underline;
+  list-style-type: none;
 }
 
 /* Style the nested ul */
