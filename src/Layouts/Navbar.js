@@ -11,7 +11,7 @@ const Navbar = () => {
        <h2>  Welcome to Plant-O-Pedia </h2>
         <ul>
          <button onClick={()=> navigate('/')}>Home</button> 
-         <button onClick={()=> navigate('/PLants')}>Plants</button> 
+         <button onClick={()=> navigate('/Plants')}>Plants</button> 
          <button onClick={()=> navigate('/Methods')}>Methods</button> 
          <button onClick={()=> navigate('/About')}>About</button>
          <button onClick={()=> navigate('/Admin')}>Admin</button>

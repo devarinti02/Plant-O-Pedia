@@ -8,6 +8,7 @@ import Methods from './Components/Methods';
 import Admin from './Components/Admin';
 import DataEntry from './Components/DataEntry';
 
+
 const App = () => {
   return (
     <div>
@@ -20,7 +21,6 @@ const App = () => {
         <Route path='/Methods' element={<Methods/>}/>
         <Route path='/Admin' element={<Admin/>}/>
         <Route path='/Data' element={<DataEntry/>}/>
-   
       </Routes>
       </BrowserRouter>
     </div>
