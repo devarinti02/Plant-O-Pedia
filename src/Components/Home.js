@@ -66,7 +66,7 @@ const Home = () => {
                   <div className='content'> <strong className='parahead'>Methods:</strong > &nbsp;<p> {item.methods}</p></div>
                 </div>
               ))}
-          
+            
         </div>
       </center>
     </div>
