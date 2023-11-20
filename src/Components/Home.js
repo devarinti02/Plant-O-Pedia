@@ -56,17 +56,17 @@ const Home = () => {
         </form>
         <br></br>
         <div className='dataarea'>
-          <center>
+          
             {data &&
               data.map((item, index) => (
                 <div key={index}>
-                  <p className='content'> <text className='parahead'>Title:</text > &nbsp; {item.title} </p>
-                  <p className='content'><text className='parahead'>Soil:</text > &nbsp; {item.soil}</p>
-                  <p className='content'> <text className='parahead'>Description:</text > &nbsp; {item.description}</p>
-                  <p className='content'><text className='parahead'>Methods:</text > &nbsp; {item.methods}</p>
+                  <div className='content'> <strong className='parahead'>Title:</strong > &nbsp; {item.title} </div>
+                  <div className='content'> <strong className='parahead'>Soil:</strong > &nbsp; {item.soil}</div>
+                  <div className='content'> <strong className='parahead'>Description:</strong > &nbsp; {item.description}</div>
+                  <div className='content'> <strong className='parahead'>Methods:</strong > &nbsp;<p> {item.methods}</p></div>
                 </div>
               ))}
-          </center>
+          
         </div>
       </center>
     </div>
